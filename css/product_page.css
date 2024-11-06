@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    width: 100%;
+}
+
+.dashboard-content {
+    margin-left: 18%;
+    width: 85%;
+    padding: 1.5rem;
+}
+
+.dashboard-view h1 {
+    color: #AD53A6;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.add-product-container {
+    background-color: #eee;
+    padding: 20px;
+    color: #AD53A6;
+    border-radius: 7px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.input input {
+    width: 100%;
+    height: 3rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.select {
+    font-size: 1.2rem;
+}
+
+.select select {
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    padding-left: 7px;
+    font-size: 15px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-column {
+    width: 48%;
+}
+
+button {
+    margin-top: 0.5rem;
+    width: 40%;
+    height: 2rem;
+    background-color: #502779;
+    border: none;
+    font-size: 0.7rem;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button i{
+    margin: 0;
+    padding: 0;
+}
+
+button:hover {
+    background-color: #F8AACF;
+    color: black;
+}
+
+.search-and-delete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 30rem;
+}
+
+.search-item {
+    width: 100%;
+    padding: 0.6rem 2.5rem 0.6rem 0.5rem; /* Adjust right padding for icon space */
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.search-item::placeholder {
+    color: #3a4750;
+    font-size: 0.8rem;
+}
+
+.search-container .fa-magnifying-glass {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    color: #3a4750;
+    font-size: 1.2rem;
+}
+
+.delete-text {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+}
+
+.fa-trash {
+    margin-left: 1.3rem;
+    color: #3a4750;
+    font-size: 1.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+th {
+    padding: 1rem;
+    background-color: #502779;
+    border: 1px solid #eeeeee;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+td {
+    padding: 0.8rem;
+    border: 1px solid #eeeeee;
+}
+
+tr {
+    color: #303841;
+    font-size: 1rem;
+}
+
+.fa-pen-to-square {
+    font-size: 1.3rem;
+}
+
+#select-box {
+    width: 1rem;
+    height: 1rem;
+}
+
+.customer-txt {
+    color: #3a4750;
+}
+
+.file-upload-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 3rem;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3rem;
+    background-color: #502779;
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.custom-file-upload i {
+    margin-right: 0.5rem;
+}
+
+.search-account {
+    display: flex;
+    align-items: center;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter select {
+    margin-left: 0.5rem;
+    padding: 2px 5px 2px 5px;
+}
+
+.search-account label{
+    font-size: 12px;
+}

@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.all{
+    position: absolute;
+    left: 290px;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 15px;
+    width: 78.7vw;
+}
+
+.text1{
+    position: relative;
+    top: 1.6rem;
+    left: 20%;
+    margin:0;
+    padding: 0;
+    color: #AD53A6;
+    letter-spacing: 5px;
+    width: max-content;
+}
+
+.search-button{
+    position: relative;
+    top: -32%;
+    left: 94%;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border: none;
+    width: max-content;
+    font-size: white;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.search-button i{
+    padding: 0;
+    margin: 0;
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar{
+    margin-top: 3%;
+    width: 94.2%;
+    padding: 0.6rem 2.5rem 0.6rem 0.5rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+Table{
+    margin-top: -2%;
+    width: 99%;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+th{
+    padding: 1rem;
+    background-color: #502779;
+    border: 2px solid #eeeeee;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+td{
+    padding: 0.8rem;
+    border: 2px solid #eeeeee;
+}
+
+.report-btn{
+    position: absolute;
+    bottom: 92.4%;
+    left: 87%;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #502779;
+}
+
+.report-btn:hover{
+    background-color:#F8AACF;
+    color: black;
+}

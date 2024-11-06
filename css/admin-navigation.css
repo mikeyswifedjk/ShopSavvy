@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fdfdff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 18vw;
+    height:100vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.admin-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    height: 185px;
+    width: 18vw;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    color: #AD53A6;
+    font-weight: bold;
+    border-bottom: 1.5px solid rgba(27, 31, 35, 0.15);
+}
+
+.username{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0;
+}
+
+.admin-btn img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.btn a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+    padding-left: 15px;
+    height: 6.5vh;
+    width: 16.8vw;
+    border: none;
+    font-size: 13px;
+    color: #AD53A6;     
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn a:hover{
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+i{
+    padding: 2rem;
+    width: 20px;
+}

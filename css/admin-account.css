@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.account-form {
+    position: absolute;
+    top: 47px;
+    left: 290px;
+    padding: 10px;
+    background-color: #eee;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 76.5vw;
+    height: 86.5vh;
+}
+
+.account-form h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    letter-spacing: 5px;
+    font-size: 40px;
+    color: #502779;
+}
+
+.account-form p {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b2b2b2;
+    font-size: 20px;
+}
+
+.account-form input[type="text"],
+.account-form input[type="password"] {
+    margin: 0;
+    padding: 12px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 22px;
+    width: 38vw;
+}
+
+.account-form input[type="file"] {
+    position: absolute;
+    top: 79%;
+    left: 72%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.imageProd {
+    position: absolute;
+    left: 59%;
+    top: 5.6%;
+    width: 30vw;
+    height: 57vh;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.imageProd img {
+    padding: 20px;
+    object-fit: cover;
+    width: 27.2vw;
+    height: 51.5vh;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.save {
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    padding: 5px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color:#502779;
+    color: white;
+}
+
+.save:hover {
+    background-color:#F8AACF;
+    color: black;
+}
+
+.tab-container {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AD53A6;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tab:hover {
+    background-color: #eee;
+}
+
+.active-tab {
+    background-color: #eee;
+}
+
+.profile{
+    position: relative;
+    top: 22px;
+    left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    color: #AD53A6;
+}

@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.all{
+    position: absolute;
+    left: 290px;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 15px;
+    width: 78.7vw;
+}
+
+.add{
+    margin-top: 30px;  
+    background-color: #eee;
+    padding: 20px;
+    color: #AD53A6;
+    width: 75vw;
+    border-radius: 7px;
+}
+
+.view{
+    background-color: white;
+    height: max-content;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.text1{
+    position: relative;
+    top: 15px;
+    left: 290px;
+    margin:0;
+    padding: 0;
+    color: #AD53A6;
+    letter-spacing: 5px;
+    width: max-content;
+}
+
+.text4{
+    color: #AD53A6;
+    letter-spacing: 1px;
+}
+
+.add label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.add input[type="text"]{
+    font-size: 15px;
+    width: 98%;
+    height: 3rem;
+    padding-left: 15px;
+    border-radius: 0.3rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.btnSearch{
+    position: relative;
+    right: 4%;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    border: none;
+    width: max-content;
+    font-size: white;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.btnSearch i{
+    padding: 0;
+    margin: 0;
+}
+
+.btnSubmit{
+    margin-left: 86.6%; 
+    padding: 7px 50px 7px 50px;
+    background-color: #502779;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border:none;
+}
+
+.btnSubmit:hover{
+    background-color: #F8AACF;
+    color: black;
+}
+
+.deletebtn{
+    position: relative;
+    bottom: 4.3rem;
+    left: 94%;
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+}
+
+.deletebtn i{
+    padding: 0;
+    margin: 0;
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+}
+
+.searchtxt{
+    width: 40%;
+    margin-left: 22%;
+    padding: 0.5rem 2.5rem 0.6rem 0.5rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.view input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+}
+
+table{
+    margin-top: -3.6%;
+    width: 99%;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.thView{
+    padding: 1rem;
+    background-color: #502779;
+    border: 2px solid #eeeeee;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+td{
+    padding: 0.8rem;
+    border: 2px solid #eeeeee;
+}
+
+.editbtn{
+    padding: 5px 10px 5px 10px;
+    background-color: #502779;
+    border: none;
+    width: max-content;
+    font-size: white;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.editbtn i{
+    padding: 0;
+    margin: 0;
+}
+
+.editbtn:hover{
+    color: black;
+    background-color: #F8AACF;
+}
+
+.editForm label {
+    display: flex;
+    margin-bottom: 0.5rem;
+    color: #AD53A6;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.editForm input[type="text"] {
+    font-size: 1rem; 
+    width: 90%; 
+    height: 1rem; 
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+/* Adjustments for input focus */
+.editForm input[type="text"]:focus {
+    outline: none;
+    border-color: #502779;  
+}
+

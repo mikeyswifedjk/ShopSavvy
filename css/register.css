@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container-content img{
+    position: absolute;
+    height: 100%;
+    background-color: #F8AACF;
+}
+
+.container-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F8AACF;
+    font-family: Arial;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    height: 100vh;
+    width:50vw;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.content h3{
+    position: absolute;
+    top: 100px;
+    left: 48px;
+    font-size: 60px;
+    color: #AD53A6;
+    letter-spacing: 3px;
+}
+
+.content h6{
+    position: absolute;
+    top: 185px;
+    left: 48px;
+    font-size: 25px;
+    color: black;
+    font-weight: normal;
+}
+
+#first_name{
+    position: absolute;
+    top: 250px;
+    left: 48px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#middle_name{
+    position: absolute;
+    top: 250px;
+    left: 259px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#last_name{
+    position: absolute;
+    top: 250px;
+    left: 470px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#address{
+    position: absolute;
+    top: 310px;
+    left: 48px;
+    width: 315px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#contact_number{
+    position: absolute;
+    top: 310px;
+    left: 375px;
+    width: 295px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#username{
+    position: absolute;
+    top: 370px;
+    left: 48px;
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#email{
+    position: absolute;
+    top: 370px;
+    left: 310px;
+    width: 360px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#password{
+    position: absolute;
+    top: 430px;
+    left: 48px;
+    width: 305px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#confirm_password{
+    position: absolute;
+    top: 430px;
+    left: 365px;
+    width: 305px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.content input[type="checkbox"]{
+    position: absolute;
+    left: 27%;
+    top: 77%;
+    width: 15px;
+    height: 15px;
+}
+
+.content input[type="submit"]{
+    position: absolute;
+    top: 490px;
+    left: 48px;
+    width: 625px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color:#502779;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.content input[type="submit"]:hover{
+    background-color:#F8AACF;
+    color: black;
+}
+
+.content label{
+    position: absolute;
+    top: 77%;
+    left: 29%;
+    font-size: 13px;
+    color: black;
+    width: 50%;
+    text-align: center;
+}
+
+.login{
+    position: absolute;
+    top: 195px;
+    left: 71%;
+    font-size: 14px;
+    color: black;
+}
+.login a{
+    color: #AD53A6;
+    text-decoration: none;
+}
+
+.login a:hover{
+    color:#F8AACF;
+}
